@@ -39,20 +39,20 @@ export async function main() {
 			box1.style.display = 'none';
 			box3.style.display = 'none';
 		
-			vsDataHead.innerHTML = "using draft";
+			vsDataHead.innerHTML = "Draft";
 			
 			vsData.innerHTML = ad.state.draft;
 		} else {
 			let diff = Math.round( ad.state.power - (avg*1.1) );
 			
 			if (diff > 0) {
-				vsDataHead.innerHTML = "on target";
+				vsDataHead.innerHTML = "ON Target";
 				box1.style.display = 'block';
 				
 				box2.style.display = 'none';
 				box3.style.display = 'none';
 			} else {
-				vsDataHead.innerHTML = "below target";
+				vsDataHead.innerHTML = "Below Target";
 				box3.style.display = 'block';
 				
 				box1.style.display = 'none';
