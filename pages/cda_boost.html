@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="" tabindex="0" data-settings-key="painface-v1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';"/>
+
+        <title>CdA boost</title>
+
+        <script src="/pages/src/preloads.js"></script>
+
+        <link rel="manifest" href="painface-manifest.json"/>
+        <link id="favicon" rel="shortcut icon" href="images/favicon.png"/>
+        <link rel="stylesheet" href="/pages/css/common.css"/>
+        <link rel="stylesheet" href="css/cda_boost.css"/>
+
+        <script type="module">
+            import {main} from './src/cda_boost.mjs';
+            main();
+        </script>
+    </head>
+    <body class="transparent-bg">
+        <div id="titlebar">
+            <header>
+                <div class="logo">&nbsp;</div>
+                <div class="title">CdA boost</div>
+                <div class="filler"></div>
+                <div class="buttons">
+                    <div title="Minimize" class="button minimize electron-only"><ms>minimize</ms></div>
+                    <div title="Close this window" class="button close electron-only"><ms>close</ms></div>
+                </div>
+            </header>
+        </div>
+        <div id="content">
+		
+			<div class="container">
+				<div id="box1" class="box1">⚡</div>
+				<div id="box2" class="box2">💨</div>
+				<div id="box3" class="box3">⚡</div>
+				
+				<div class="content">
+					<div id="data-head" class="data-alt"></div>
+					<div id="data" class="data"></div>
+					<div id="data-alt" class="data-alt"></div>
+				</div>
+				
+			</div>
+
+		</div>
+        <div id="hintbar">
+            <div class="hint"></div>
+        </div>
+    </body>
+</html>

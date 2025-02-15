@@ -1,0 +1,73 @@
+.data {
+	width: 100vw;
+	font-weight: bold;
+	text-align: center;
+	opacity: 1;
+	font-size: 32vw;
+	white-space: nowrap;
+	text-shadow: 1px 1px 2px black;
+	line-height: 1.2em;
+}
+
+.data-alt {
+	width: 100vw;
+	text-align: center;
+	opacity: 1;
+	font-size: 8vw;
+	white-space: nowrap;
+	text-shadow: 1px 1px 1px black;
+}
+
+div#output {
+	word-wrap: break-word;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	margin: 0 auto;
+	color: white;
+	background: rgba(0,0,0,0.25);
+}
+
+/*power on*/
+.box1{
+	width: 100vw;
+	position: absolute;
+	opacity: 1;
+	z-index: 1;
+	font-size: 60vw;
+	display: none;
+	text-align: center;
+}
+/*draft*/
+.box2{
+	width: 100vw;
+	position: absolute;
+	opacity: 0.6;
+	z-index: 2;
+	font-size: 60vw;
+	display: none;
+	text-align: center;
+}
+/*power off*/
+.box3{
+	width: 100vw;
+	position: absolute;
+	opacity: 0.4;
+	z-index: 3;
+	font-size: 60vw;
+	text-align: center;
+}
+
+.content{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 36px;
+	
+	width: 100vw;
+	position: absolute;
+	opacity: 1;  /* for demo purpose  */
+	z-index: 10;
+}

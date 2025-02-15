@@ -1,0 +1,21 @@
+{
+    "manifest_version": 1,
+    "name": "VirtuSlo Mod",
+    "description": "VirtuSlo s4z mod",
+    "author": "bl4z ",
+    "website_url": "https://github.com/bl4zzz/virtuslo-s4z-mod", 
+    "version": "0.0.1",
+    "web_root": "pages",
+    "windows": [{
+        "file": "pages/cda_boost.html",
+        "id": "cda",
+        "name": "CdA boost",
+        "description": "CdA boost info",
+        "overlay": true,
+        "frame": false,
+        "default_bounds": {
+            "width": 200,
+            "height": 200
+        }
+    }]
+}
